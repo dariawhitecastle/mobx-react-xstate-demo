@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar/> renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="StyledGrommet-sc-19lkkz7-0 jjKgqr"
+  >
+    <div
+      class="StyledGrid-sc-1wofa1l-0 dfkkNd StyledBox-sc-13pk1d4-0 gYVBxi"
+      data-testid="nav-bar"
+      style="height: 80px;"
+    >
+      <div
+        class="StyledBox-sc-13pk1d4-0 bbkGYr"
+      >
+        <h3
+          class="StyledHeading-sc-1rdh4aw-0 ftOecI"
+        >
+          PAR
+        </h3>
+      </div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 gdzbcl"
+        style="justify-self: end;"
+      >
+        <span
+          class="NavBarstyles__StyledText-cuj0qf-0 bTNZEJ StyledText-sc-1sadyjn-0 cAYdSQ"
+          font-size="medium"
+        >
+          <a
+            class="NavBarstyles__StyledLink-cuj0qf-1 gnewVS"
+            href="/help"
+            theme="[object Object]"
+          >
+            Help
+          </a>
+        </span>
+        <span
+          class="NavBarstyles__StyledText-cuj0qf-0 bTNZEJ StyledText-sc-1sadyjn-0 cAYdSQ"
+          font-size="medium"
+        >
+          <a
+            class="NavBarstyles__StyledLink-cuj0qf-1 gnewVS"
+            href="/login"
+            theme="[object Object]"
+          >
+            Login
+          </a>
+        </span>
+        <span
+          class="NavBarstyles__StyledText-cuj0qf-0 bTNZEJ StyledText-sc-1sadyjn-0 cAYdSQ"
+          font-size="medium"
+        >
+          <a
+            class="NavBarstyles__StyledLink-cuj0qf-1 gnewVS"
+            href="/create-account"
+            theme="[object Object]"
+          >
+            Create Account
+          </a>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

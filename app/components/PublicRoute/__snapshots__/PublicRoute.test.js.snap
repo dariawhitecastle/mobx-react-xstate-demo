@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PublicRoute /> does not render Register if user is authenticated 1`] = `
+<div>
+  <div
+    class="StyledGrommet-sc-19lkkz7-0 jjKgqr"
+  />
+</div>
+`;
+
+exports[`<PublicRoute /> renders Register if user is not authenticated 1`] = `
+<div>
+  <div
+    class="StyledGrommet-sc-19lkkz7-0 jjKgqr"
+  >
+    <div
+      class="StyledGrid-sc-1wofa1l-0 kwpRnp"
+      data-testid="register-page"
+    >
+      <div
+        class="StyledBox-sc-13pk1d4-0 blgRIJ"
+      >
+        <h2
+          class="StyledHeading-sc-1rdh4aw-0 cwhZKY"
+        >
+          <span>
+            Create your account
+          </span>
+        </h2>
+        <a
+          class="StyledAnchor-sc-1rp7lwl-0 byullG"
+          href="/create-account"
+        >
+          Start over
+        </a>
+      </div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 bKIioc"
+      >
+        <form>
+          <div
+            class="FormFieldstyles__StyledFormField-akn550-0 dEYomq FormField__FormFieldBox-m9hood-0 eshLKp StyledBox-sc-13pk1d4-0 hEQCXC"
+          >
+            <label
+              class="StyledText-sc-1sadyjn-0 gYQWKG"
+            >
+              Email address
+            </label>
+            <div
+              class="StyledBox-sc-13pk1d4-0 gZSidW"
+            >
+              <div
+                class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kYQCpm"
+              >
+                <input
+                  autocomplete="off"
+                  class="StyledTextInput-sc-1x30a0s-0 duvNfq"
+                  label="Email address"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="FormFieldstyles__StyledFormField-akn550-0 dEYomq FormField__FormFieldBox-m9hood-0 eshLKp StyledBox-sc-13pk1d4-0 hEQCXC"
+          >
+            <label
+              class="StyledText-sc-1sadyjn-0 gYQWKG"
+            >
+              Password
+            </label>
+            <div
+              class="StyledBox-sc-13pk1d4-0 gZSidW"
+            >
+              <div
+                class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kYQCpm"
+              >
+                <input
+                  autocomplete="off"
+                  class="StyledTextInput-sc-1x30a0s-0 duvNfq"
+                  label="Password"
+                  name="password"
+                  placeholder="Password (Min 6 characters)"
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="FormFieldstyles__StyledFormField-akn550-0 dEYomq FormField__FormFieldBox-m9hood-0 eshLKp StyledBox-sc-13pk1d4-0 hEQCXC"
+          >
+            <label
+              class="StyledText-sc-1sadyjn-0 gYQWKG"
+            >
+              Confirm Password
+            </label>
+            <div
+              class="StyledBox-sc-13pk1d4-0 gZSidW"
+            >
+              <div
+                class="StyledTextInput__StyledTextInputContainer-sc-1x30a0s-1 kYQCpm"
+              >
+                <input
+                  autocomplete="off"
+                  class="StyledTextInput-sc-1x30a0s-0 duvNfq"
+                  label="Confirm Password"
+                  name="password_confirm"
+                  placeholder="Type your password again"
+                  type="password"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="StyledBox-sc-13pk1d4-0 iUevOx"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 cCLdcY"
+            >
+              <button
+                class="StyledButton-sc-323bzc-0 MPVH"
+                type="submit"
+              >
+                Back
+              </button>
+              <div
+                class="StyledBox__StyledBoxGap-sc-13pk1d4-1 hyyRSo"
+              />
+              <button
+                class="StyledButton-sc-323bzc-0 MPVH"
+                style="max-width: 600px;"
+                type="submit"
+              >
+                <span>
+                  Create My Account & Basic Plan
+                </span>
+              </button>
+            </div>
+            <div
+              class="FormFieldstyles__StyledFormField-akn550-0 dEYomq FormField__FormFieldBox-m9hood-0 eshLKp StyledBox-sc-13pk1d4-0 hEQCXC"
+              style="align-items: center;"
+            >
+              <div
+                class="StyledBox-sc-13pk1d4-0 gZSidW"
+              >
+                <label
+                  class="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 bVmNDQ"
+                >
+                  <div
+                    class="StyledCheckBox-sc-1dbk5ju-6 jXdLin StyledBox-sc-13pk1d4-0 emCRMK"
+                  >
+                    <input
+                      class="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 kCsbbU"
+                      name="terms"
+                      type="checkbox"
+                    />
+                    <div
+                      class="StyledCheckBox__StyledCheckBoxBox-sc-1dbk5ju-3 fxKnpz StyledBox-sc-13pk1d4-0 jFlQDV"
+                    />
+                  </div>
+                  <span>
+                    I agree to the Terms & Conditions
+                  </span>
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <h5
+          class="StyledHeading-sc-1rdh4aw-0 dvRIHC"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

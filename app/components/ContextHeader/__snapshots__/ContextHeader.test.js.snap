@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="StyledBox-sc-13pk1d4-0 laoUSJ"
+  >
+    <h3
+      class="StyledHeading-sc-1rdh4aw-0 eoFZBW"
+    >
+      This is the ContextHeader component!
+    </h3>
+    <div
+      class="StyledBox-sc-13pk1d4-0 IRSNj"
+    >
+      <span
+        class="StyledText-sc-1sadyjn-0 eIjKJy"
+      >
+        Touring company
+      </span>
+      <div
+        class="StyledBox-sc-13pk1d4-0 ffeAql"
+      >
+        <span
+          class="StyledText-sc-1sadyjn-0 hfhDKB"
+        >
+          Current Operations:
+        </span>
+        <button
+          class="ContextHeaderstyles__StyledPlainButton-v85b05-0 frwaHS StyledButton-sc-323bzc-0 ggkrQe"
+          type="button"
+        >
+          <span
+            class="StyledText-sc-1sadyjn-0 blCtzG"
+          >
+            NORMAL
+          </span>
+        </button>
+        <button
+          class="ContextHeaderstyles__StyledPlainButton-v85b05-0 frwaHS StyledButton-sc-323bzc-0 PFIEG"
+          type="button"
+        >
+          <span
+            class="StyledText-sc-1sadyjn-0 dFayqK"
+          >
+            Change Status
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

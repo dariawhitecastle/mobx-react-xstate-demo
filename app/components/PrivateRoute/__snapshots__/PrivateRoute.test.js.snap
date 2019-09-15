@@ -1,0 +1,807 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PrivateRoute /> does not render if user is not authenticated 1`] = `<div />`;
+
+exports[`<PrivateRoute /> renders dashboard if user is authenticated 1`] = `
+<div>
+  <div
+    class="StyledBox-sc-13pk1d4-0 kFozry"
+    data-testid="dashboard-page"
+  >
+    <div
+      class="StyledGrid-sc-1wofa1l-0 ToWNm"
+    >
+      <div
+        class="StyledBox-sc-13pk1d4-0 bQYvDs"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 laoUSJ"
+        >
+          <h3
+            class="StyledHeading-sc-1rdh4aw-0 eoFZBW"
+          >
+            Dashboard
+          </h3>
+          <div
+            class="StyledBox-sc-13pk1d4-0 IRSNj"
+          >
+            <span
+              class="StyledText-sc-1sadyjn-0 eIjKJy"
+            >
+              A Touring Org
+            </span>
+            <div
+              class="StyledBox-sc-13pk1d4-0 ffeAql"
+            >
+              <span
+                class="StyledText-sc-1sadyjn-0 hfhDKB"
+              >
+                Current Operations:
+              </span>
+              <button
+                class="ContextHeaderstyles__StyledPlainButton-v85b05-0 frwaHS StyledButton-sc-323bzc-0 ggkrQe"
+                type="button"
+              >
+                <span
+                  class="StyledText-sc-1sadyjn-0 blCtzG"
+                >
+                  NORMAL
+                </span>
+              </button>
+              <button
+                class="ContextHeaderstyles__StyledPlainButton-v85b05-0 frwaHS StyledButton-sc-323bzc-0 PFIEG"
+                type="button"
+              >
+                <span
+                  class="StyledText-sc-1sadyjn-0 dFayqK"
+                >
+                  Change Status
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="StyledBox-sc-13pk1d4-0 bnVHjN"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 IRSNj"
+            id="accordion"
+            role="tablist"
+          >
+            <div
+              class="StyledBox-sc-13pk1d4-0 jqGCfM"
+            >
+              <button
+                aria-expanded="false"
+                aria-selected="false"
+                class="StyledButton-sc-323bzc-0 jfbKsv"
+                role="tab"
+                type="button"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 hOqoQu"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 gWyzaK"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 birBFn"
+                    >
+                      Lorem ipsum dolor amet twee fashion
+axe mumblecore retro cloud bread tote bag jianbing taxidermy tofu.
+Irony fanny pack hashtag gluten-free live-edge organic, adaptogen
+godard venmo tacos biodiesel
+                    </span>
+                    <span
+                      class="StyledText-sc-1sadyjn-0 emyCFn"
+                      style="white-space: nowrap;"
+                    >
+                      Read the entire message
+                    </span>
+                  </div>
+                  <span
+                    class="StyledText-sc-1sadyjn-0 hQBAfg"
+                    style="white-space: nowrap;"
+                  >
+                    <svg
+                      aria-label="Close"
+                      class="StyledIcon-ofa7kd-0 iwZYra"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3,3 L21,21 M3,21 L21,3"
+                        fill="none"
+                        stroke="#000"
+                        stroke-width="2"
+                      />
+                    </svg>
+                     
+                    Close
+                  </span>
+                </div>
+              </button>
+              <div
+                class="StyledBox-sc-13pk1d4-0 gcIhDK"
+              >
+                <div
+                  aria-hidden="true"
+                  class="Collapsible__AnimatedBox-sc-15kniua-0 cHrNEL StyledBox-sc-13pk1d4-0 IRSNj"
+                >
+                  <div
+                    class="StyledBox-sc-13pk1d4-0 hroMnY"
+                  >
+                    <span
+                      class="StyledText-sc-1sadyjn-0 hwBquJ"
+                    >
+                      Lorem ipsum dolor amet twee fashion
+axe mumblecore retro cloud bread tote bag jianbing taxidermy tofu.
+Irony fanny pack hashtag gluten-free live-edge organic, adaptogen
+godard venmo tacos biodiesel
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 gNDjcL"
+      >
+        <h3
+          class="Dashboardstyles__StyledHeader-sc-3qot3-1 iAsupd StyledHeading-sc-1rdh4aw-0 ftOecI"
+        >
+          To-Do's
+        </h3>
+        <table
+          class="Dashboardstyles__StyledDataTable-sc-3qot3-2 jHmyoz StyledDataTable-xrlyjm-0 tpKnu StyledTable-sc-1m3u5g-6 fGUmP"
+        >
+          <thead
+            class="StyledDataTable__StyledDataTableHeader-xrlyjm-3 bAIczD StyledTable__StyledTableHeader-sc-1m3u5g-4 dHaGyd"
+          >
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+                scope="col"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 kzBXLi"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    Item
+                  </span>
+                </div>
+              </th>
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+                scope="col"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 haYUJD"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    Due
+                  </span>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="StyledDataTable__StyledDataTableBody-xrlyjm-2 hbZQKY StyledTable__StyledTableBody-sc-1m3u5g-3 dwInxx"
+          >
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bnqisW"
+                  >
+                    Organizational Chart
+                  </span>
+                </div>
+              </th>
+              <td
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 jfDyzp"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    8/31
+                  </span>
+                </div>
+              </td>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bnqisW"
+                  >
+                    Workplace Safety Training
+                  </span>
+                </div>
+              </th>
+              <td
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 jfDyzp"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    9/9
+                  </span>
+                </div>
+              </td>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bnqisW"
+                  >
+                    Crisis Communications plan
+                  </span>
+                </div>
+              </th>
+              <td
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 jfDyzp"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    9/27
+                  </span>
+                </div>
+              </td>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 bnqisW"
+                  >
+                    Stakeholder Contact List
+                  </span>
+                </div>
+              </th>
+              <td
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 jfDyzp"
+                >
+                  <span
+                    class="StyledText-sc-1sadyjn-0 fWSbXS"
+                  >
+                    10/2
+                  </span>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button
+          class="StyledButton-sc-323bzc-0 eAjswE"
+          type="button"
+        >
+          View All To-Do's
+        </button>
+      </div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 brtsvp"
+      >
+        <h3
+          class="Dashboardstyles__StyledHeader-sc-3qot3-1 iAsupd StyledHeading-sc-1rdh4aw-0 ftOecI"
+        >
+          Readiness Assessment
+        </h3>
+        <table
+          class="Dashboardstyles__StyledDataTable-sc-3qot3-2 Dashboardstyles__PercentCompletedTable-sc-3qot3-3 dQaQCt StyledDataTable-xrlyjm-0 tpKnu StyledTable-sc-1m3u5g-6 fGUmP"
+        >
+          <thead
+            class="StyledDataTable__StyledDataTableHeader-xrlyjm-3 bAIczD StyledTable__StyledTableHeader-sc-1m3u5g-4 dHaGyd"
+          >
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+                scope="col"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 folWQp"
+                />
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="StyledDataTable__StyledDataTableBody-xrlyjm-2 hbZQKY StyledTable__StyledTableBody-sc-1m3u5g-3 dwInxx"
+          >
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                        <path
+                          d="M 0,15 L 255.99999999999997,15"
+                          fill="none"
+                          stroke="#6FFFB0"
+                          stroke-linecap="butt"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          People Resources
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          1/3 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                        <path
+                          d="M 0,15 L 384,15"
+                          fill="none"
+                          stroke="#6FFFB0"
+                          stroke-linecap="butt"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Finances & Insurance
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          5/10 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Technology
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          0/2 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Productions
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          0/10 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                        <path
+                          d="M 0,15 L 76.8,15"
+                          fill="none"
+                          stroke="#6FFFB0"
+                          stroke-linecap="butt"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Tickets & Messaging
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          1/10 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Facilities
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          0/4 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr
+              class="StyledDataTable__StyledDataTableRow-xrlyjm-1 ezpFws StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+            >
+              <th
+                class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+                scope="row"
+              >
+                <div
+                  class="StyledBox-sc-13pk1d4-0 eAAZJM"
+                >
+                  <div
+                    class="Dashboardstyles__StyledStack-sc-3qot3-4 fysxFi StyledStack-ajspsk-0 fRHLog"
+                  >
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 qFSmb"
+                    >
+                      <svg
+                        class="StyledMeter-nsxarx-0 BBYDe"
+                        height="30"
+                        preserveAspectRatio="none"
+                        viewBox="0 0 768 30"
+                        width="768"
+                      >
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#F2F2F2"
+                          stroke-linecap="square"
+                          stroke-opacity="0.4"
+                          stroke-width="30"
+                        />
+                        <path
+                          d="M 0,15 L 768,15"
+                          fill="none"
+                          stroke="#6FFFB0"
+                          stroke-linecap="butt"
+                          stroke-width="30"
+                        />
+                      </svg>
+                    </div>
+                    <div
+                      class="StyledStack__StyledStackLayer-ajspsk-1 hWwUdl"
+                    >
+                      <div
+                        class="StyledBox-sc-13pk1d4-0 jFuDqS"
+                      >
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          Grantmakinng
+                        </span>
+                        <span
+                          class="StyledText-sc-1sadyjn-0 cZhDAZ"
+                        >
+                          2/2 Completed
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </tbody>
+        </table>
+        <button
+          class="StyledButton-sc-323bzc-0 eAjswE"
+          type="button"
+        >
+          Continue Assessment
+        </button>
+      </div>
+      <div
+        class="StyledBox-sc-13pk1d4-0 hOOUzc"
+      >
+        <h3
+          class="Dashboardstyles__StyledHeader-sc-3qot3-1 iAsupd StyledHeading-sc-1rdh4aw-0 ftOecI"
+        >
+          Risk Assessment
+        </h3>
+        <span
+          class="StyledText-sc-1sadyjn-0 fWSbXS"
+        >
+          Lorem ipsum dolor amet twee fashion axe mumblecore retro cloud bread tote bag jianbing taxidermy tofu. Irony fanny pack hashtag gluten-free live-edge organic, adaptogen
+        </span>
+        <button
+          class="StyledButton-sc-323bzc-0 eAjswE"
+          type="button"
+        >
+          Start the Analysis
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

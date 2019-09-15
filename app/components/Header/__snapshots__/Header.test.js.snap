@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+.c0 {
+  font-size: 50px;
+  line-height: 56px;
+  max-width: 1200px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width:768px) {
+  .c0 {
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 816px;
+  }
+}
+
+<div>
+  <h1
+    class="c0"
+  >
+    TESTING
+  </h1>
+</div>
+`;

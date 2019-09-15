@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <section
+    class="LandingPagestyles__Section-sc-6xi0mq-0 bgXCnf"
+  >
+    <div
+      class="StyledBox-sc-13pk1d4-0 dNgQiZ"
+    >
+      <a
+        class="StyledAnchor-sc-1rp7lwl-0 jgeOSx"
+        href="/create-account"
+      >
+        Create account
+      </a>
+      <a
+        class="StyledAnchor-sc-1rp7lwl-0 jgeOSx"
+        href="/login"
+      >
+        Login
+      </a>
+    </div>
+  </section>
+</div>
+`;

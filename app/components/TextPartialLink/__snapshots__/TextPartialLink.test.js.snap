@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <span
+        class="StyledText-sc-1sadyjn-0 fWSbXS"
+      >
+        Test message.
+      </span>
+      <button
+        class="StyledButton-sc-323bzc-0 kHrfdt"
+        type="button"
+      >
+        Test Link
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`it renders, has styles and matches snapshot 1`] = `
+<div>
+  <div>
+    <div>
+      <span
+        class="StyledText-sc-1sadyjn-0 fWSbXS"
+      >
+        Test message.
+      </span>
+      <button
+        class="StyledButton-sc-323bzc-0 kHrfdt"
+        style="text-decoration: underline;"
+        type="button"
+      >
+        Test Link
+      </button>
+    </div>
+  </div>
+</div>
+`;

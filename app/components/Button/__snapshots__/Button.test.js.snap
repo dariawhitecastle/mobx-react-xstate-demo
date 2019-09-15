@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <a
+    class="StyledButton-sc-323bzc-0 jfbKsv"
+    href="https://cuttlesoft.com"
+  >
+    <h1>
+      Test
+    </h1>
+  </a>
+</div>
+`;

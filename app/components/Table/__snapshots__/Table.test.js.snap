@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <table
+    class="StyledTable-sc-1m3u5g-6 fGUmP"
+  >
+    <thead
+      class="StyledTable__StyledTableHeader-sc-1m3u5g-4 dHaGyd"
+    >
+      <tr
+        class="StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+      >
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eoKPJA"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            >
+              Name
+            </h4>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eoKPJA"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            >
+              Email
+            </h4>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 hNAgVv"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eoKPJA"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            >
+              Amount
+            </h4>
+          </div>
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      class="StyledTable__StyledTableBody-sc-1m3u5g-3 dwInxx"
+    >
+      <tr
+        class="StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+      >
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              Eric
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              eric@gmail.com
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              $45
+            </h5>
+          </div>
+        </th>
+      </tr>
+      <tr
+        class="StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+      >
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              Chris
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              chris@gmail.com
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              $45
+            </h5>
+          </div>
+        </th>
+      </tr>
+      <tr
+        class="StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+      >
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              Shanna
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              shanna@gmail.com
+            </h5>
+          </div>
+        </th>
+        <th
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 ezepRo"
+          scope="col"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 eAAZJM"
+          >
+            <h5
+              class="StyledHeading-sc-1rdh4aw-0 jDZxiw"
+            >
+              $45
+            </h5>
+          </div>
+        </th>
+      </tr>
+    </tbody>
+    <tfoot
+      class="StyledTable__StyledTableFooter-sc-1m3u5g-5 zMIVX"
+    >
+      <tr
+        class="StyledTable__StyledTableRow-sc-1m3u5g-2 kXgizX"
+      >
+        <td
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 edcjKh"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 bGwdLS"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            />
+          </div>
+        </td>
+        <td
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 edcjKh"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 bGwdLS"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            />
+          </div>
+        </td>
+        <td
+          class="StyledTable__StyledTableCell-sc-1m3u5g-0 edcjKh"
+        >
+          <div
+            class="StyledBox-sc-13pk1d4-0 bGwdLS"
+          >
+            <h4
+              class="StyledHeading-sc-1rdh4aw-0 dOVRRX"
+            />
+          </div>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+`;

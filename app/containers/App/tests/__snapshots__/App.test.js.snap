@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<React.Fragment>
+  <HelmetWrapper
+    defaultTitle="React.js Boilerplate"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s - React.js Boilerplate"
+  >
+    <meta
+      content="A React.js Boilerplate application"
+      name="description"
+    />
+  </HelmetWrapper>
+  <Memo(withRouter())
+    isAuthenticated={true}
+  />
+  <Switch>
+    <Memo(wrappedComponent)
+      component={[Function]}
+      exact={true}
+      path="/"
+    />
+    <Memo(wrappedComponent)
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "displayName": "",
+          "type": [Function],
+        }
+      }
+      path="/create-account"
+    />
+    <Memo(wrappedComponent)
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "displayName": "",
+          "type": [Function],
+        }
+      }
+      path="/login"
+    />
+    <Memo(wrappedComponent)
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "displayName": "",
+          "type": [Function],
+        }
+      }
+      path="/forgot-password"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/reset-password"
+    />
+    <Route
+      component={[Function]}
+      path="/help"
+    />
+    <Route
+      component={[Function]}
+      path="/confirm-account"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/dashboard"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/my-profile"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/my-account"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/confirm-email"
+    />
+    <Memo(wrappedComponent)
+      component={[Function]}
+      path="/critical-data"
+    />
+    <Route
+      component={[Function]}
+      path=""
+    />
+  </Switch>
+  <GlobalStyleComponent />
+</React.Fragment>
+`;

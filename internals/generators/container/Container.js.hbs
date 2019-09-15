@@ -1,0 +1,91 @@
+{{#if memo}}
+{{#if connectToStore}}
+import React, { useContext, memo } from 'react'
+{{else}}
+import React, { memo } from 'react'
+{{/if}}
+{{else if connectToStore}}
+import React, {useContext} from 'react'
+{{else}}
+import React from 'react'
+{{/if}}
+
+// import PropTypes from 'prop-types'
+
+{{#if connectToStore}}
+import { observer } from 'mobx-react'
+{{/if}}
+
+{{#if wantHeaders}}
+import { Helmet } from 'react-helmet'
+{{/if}}
+
+{{#if wantMessages}}
+import { FormattedMessage } from 'react-intl'
+{{/if}}
+
+import { Header } from 'components/Header'
+import { Section } from './{{properCase name}}.styles'
+
+{{#if wantMessages}}
+import messages from './{{ properCase name }}.messages'
+{{/if}}
+
+{{#if connectToStore}}
+import { GitHubStoreContext } from '../../stores/GithubStore'
+{{/if}}
+
+/**
+*
+* {{properCase name }}
+*
+* Displays ...
+*
+* - When ..., it ...
+*
+*/
+{{#if connectToStore}}
+const {{ properCase name }} = observer(() => {
+const gitHubStore = useContext(GitHubStoreContext)
+const {currentUser} = gitHubStore
+
+return (
+
+{{else}}
+const {{ properCase name}} = () =>
+{{/if}}
+(
+<article>
+  {{#if wantHeaders}}
+  <Helmet>
+    <title>{{properCase name}}</title>
+    <meta name="description"
+      content="Description of {{properCase name}}" />
+  </Helmet>
+  {{/if}}
+
+
+  <Section>
+    <Header level='2'>
+      {{#if wantMessages}}
+      <FormattedMessage {...messages.header} />
+      {{/if}}
+      {{#if connectToStore}}
+      {`current user: ${currentUser}`}
+      {{/if}}
+    </Header>
+  </Section>
+
+</article>
+)
+
+{{#if connectToStore}}
+)})
+{{/if}}
+
+
+{{#if memo}}
+export default memo({{ properCase name }})
+{{else}}
+export default {{ properCase name }}
+{{/if}}

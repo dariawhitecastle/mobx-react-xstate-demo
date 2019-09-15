@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <label
+    class="StyledCheckBox__StyledCheckBoxContainer-sc-1dbk5ju-1 bVmNDQ"
+    for="checkbox-1"
+  >
+    <span>
+      New Label
+    </span>
+    <div
+      class="StyledCheckBox-sc-1dbk5ju-6 jXdLin StyledBox-sc-13pk1d4-0 hDcpDz"
+    >
+      <input
+        checked=""
+        class="StyledCheckBox__StyledCheckBoxInput-sc-1dbk5ju-2 dmEAHg"
+        id="checkbox-1"
+        name="Some name"
+        type="checkbox"
+      />
+      <span
+        class="StyledCheckBox__StyledCheckBoxToggle-sc-1dbk5ju-4 dxNLkr"
+      >
+        <span
+          class="StyledCheckBox__StyledCheckBoxKnob-sc-1dbk5ju-5 cUXtfC"
+        />
+      </span>
+    </div>
+  </label>
+</div>
+`;

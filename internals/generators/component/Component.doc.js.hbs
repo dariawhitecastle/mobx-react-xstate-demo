@@ -1,0 +1,18 @@
+import { describe, PropTypes } from 'react-desc'
+
+export const doc = {{ properCase name }} => {
+const Documented{{ properCase name }} = describe({{ properCase name }})
+.description('A {{ properCase name }}')
+.usage(
+`import { {{ properCase name }} } from 'components/{{ properCase name }}';
+<{{ properCase name }} />`,
+)
+
+Documented{{ properCase name }}.propTypes = {
+id: PropTypes.string.description(
+'The DOM id attribute value to use for the element.',
+).defaultValue(false),
+}
+
+return Documented{{ properCase name }}
+}

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+.c2 {
+  display: inline-block;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  fill: blue;
+  stroke: blue;
+}
+
+.c2 g {
+  fill: inherit;
+  stroke: inherit;
+}
+
+.c2 *:not([stroke])[fill="none"] {
+  stroke-width: 0;
+}
+
+.c2 *[stroke*="#"],
+.c2 *[STROKE*="#"] {
+  stroke: inherit;
+  fill: none;
+}
+
+.c2 *[fill-rule],
+.c2 *[FILL-RULE],
+.c2 *[fill*="#"],
+.c2 *[FILL*="#"] {
+  fill: inherit;
+  stroke: none;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  box-sizing: border-box;
+  outline: none;
+  max-width: 100%;
+  margin: 0px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.c3 {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: 12px;
+}
+
+.c0 {
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 20px;
+  color: blue;
+  font-weight: 600;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.c0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .c1 {
+    padding: 0px;
+  }
+}
+
+<div>
+  <a
+    aria-label="string"
+    class="c0"
+    href="https://cuttlesoft.com"
+  >
+    <span
+      class="c1"
+      style="display: inline-flex;"
+    >
+      <svg
+        aria-label="Add"
+        class="c2"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12,22 L12,2 M2,12 L22,12"
+          fill="none"
+          stroke="#000"
+          stroke-width="2"
+        />
+      </svg>
+      <div
+        class="c3"
+      />
+      Clickme
+    </span>
+  </a>
+</div>
+`;

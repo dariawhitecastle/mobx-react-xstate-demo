@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="StyledBox-sc-13pk1d4-0 eTzjKl"
+  >
+    <button
+      class="StyledButton-sc-323bzc-0 jfbKsv"
+      type="button"
+    >
+      <a
+        href="/hello"
+        style="text-decoration: none;"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 iURajA"
+        >
+          <span
+            class="StyledText-sc-1sadyjn-0 cfieNy"
+          >
+            Hello
+          </span>
+        </div>
+      </a>
+    </button>
+    <button
+      class="StyledButton-sc-323bzc-0 bAOLDb"
+      type="button"
+    >
+      <a
+        href="/bananas"
+        style="text-decoration: none;"
+      >
+        <div
+          class="StyledBox-sc-13pk1d4-0 eedNja"
+        >
+          <span
+            class="StyledText-sc-1sadyjn-0 kVyNC"
+          >
+            Bananas
+          </span>
+        </div>
+      </a>
+    </button>
+  </div>
+</div>
+`;
