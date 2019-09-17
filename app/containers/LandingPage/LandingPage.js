@@ -4,7 +4,8 @@
  *
  */
 
-import React from 'react'
+import React, { useContext } from 'react'
+import { observer } from 'mobx-react'
 import { withRouter } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import { Machine } from 'xstate'
@@ -17,14 +18,29 @@ import { StatusMessage } from 'components/StatusMessage'
 import { Form, FormField } from 'components/Form'
 import { LoadingIndicator } from 'components/LoadingIndicator'
 
+import { UserStoreContext } from '../../stores/UserStore'
+
 import { machineConfig, machineOptions } from './machine'
-const LandingPage = () => {
-  const createAccountMachine = Machine(machineConfig, machineOptions())
+const LandingPage = observer(() => {
+  const { setCurrentUser, user } = useContext(UserStoreContext)
+  const createAccountMachine = Machine(machineConfig, machineOptions(setCurrentUser))
   const [current, send] = useMachine(createAccountMachine)
 
   const handleSubmit = e => {
     e.preventDefault()
     send({ type: 'SUBMIT' })
+  }
+
+  const logOut = () => {
+    send({
+      type: 'ENTER_EMAIL',
+      value: '',
+    })
+    send({
+      type: 'ENTER_PASSWORD',
+      value: '',
+    })
+    setCurrentUser('')
   }
 
   const disableSubmit = () =>
@@ -59,13 +75,12 @@ const LandingPage = () => {
       <Box>
         <Box alignSelf="center" margin="large" width="medium">
           <Header level="3" margin={{ horizontal: 'small', vertical: 'large' }} alignSelf="center">
-            {' '}
-            MOBX and XSTATE demo
+            {user.email ? `Current user is ${user.email}` : `MOBX and XSTATE demo`}
           </Header>
           <Form onSubmit={handleSubmit}>
             <FormField
               disabled={current.matches('awaitingResponse')}
-              error={current.matches('emailErr')}
+              error={current.matches('emailErr') && 'Please enter valid email'}
               label="Email"
               name="email"
               onBlur={() => {
@@ -79,12 +94,12 @@ const LandingPage = () => {
               }}
               placeholder="Enter email"
               type="email"
-              value={{ value: email }}
+              value={{ value: user.email }}
             />
 
             <FormField
               disabled={current.matches('awaitingResponse')}
-              error={current.matches('passwordErr')}
+              error={current.matches('passwordErr') && 'Password too short'}
               label="Password"
               name="password"
               onBlur={() => {
@@ -98,17 +113,11 @@ const LandingPage = () => {
               }}
               placeholder="Enter password"
               type="password"
-              value={{ value: password }}
+              value={{ value: user.password }}
             />
-            <Box align="center">
-              <Button
-                disabled={disableSubmit()}
-                fill="horizontal"
-                label={getButtonCopy()}
-                primary
-                style={{ maxWidth: '200px' }}
-                type="submit"
-              />
+            <Box align="center" direction="row" justify="between">
+              <Button disabled={!user.email} label="Log out" primary onClick={logOut} />
+              <Button disabled={disableSubmit()} label={getButtonCopy()} primary type="submit" />
             </Box>
           </Form>
           <StatusMessage error={current.matches('serviceErr')}>{getSubmitMessage()}</StatusMessage>
@@ -116,6 +125,6 @@ const LandingPage = () => {
       </Box>
     </>
   )
-}
+})
 
 export default withRouter(LandingPage)

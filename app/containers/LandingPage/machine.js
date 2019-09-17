@@ -109,7 +109,7 @@ const machineConfig = {
   },
 }
 
-const machineOptions = () => ({
+const machineOptions = setCurrentUser => ({
   actions: {
     setEmail: assign((ctx, evt) => ({
       email: evt.value,
@@ -118,8 +118,8 @@ const machineOptions = () => ({
       password: evt.value,
     })),
     // We’ll log a note in the console to confirm authentication
-    onAuthentication: () => {
-      console.info('user authenticated')
+    onAuthentication: ctx => {
+      setCurrentUser(ctx.email, ctx.password)
     },
   },
   guards: {

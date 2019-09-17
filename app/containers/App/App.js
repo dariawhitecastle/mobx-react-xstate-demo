@@ -1,24 +1,14 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import { Switch, Route } from 'react-router-dom'
-
-// Components
-import { NavBar } from 'components/NavBar'
+import { Switch } from 'react-router-dom'
 
 // Route components
 
 import LandingPage from 'containers/LandingPage/LandingPage.loadable'
 
-import NotFound from 'containers/NotFound/NotFound'
 import { PublicRoute } from 'components/PublicRoute'
 
 import GlobalStyle from '../../global-styles'
-
-const renderNavBar = () => {
-  const isAuthenticated = true
-
-  return <NavBar isAuthenticated={isAuthenticated} />
-}
 
 /**
  *
@@ -34,11 +24,8 @@ export default function App() {
         <meta name="description" content="A React.js Boilerplate application" />
       </Helmet>
 
-      {/* {renderNavBar()} */}
-
       <Switch>
         <PublicRoute exact path="/" component={LandingPage} />
-        <Route path="" component={NotFound} />
       </Switch>
       <GlobalStyle />
     </>

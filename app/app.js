@@ -22,9 +22,6 @@ import 'sanitize.css/sanitize.css'
 // Import root app
 import { App } from 'containers/App'
 
-// Import Language Provider
-import { LanguageProvider } from 'containers/LanguageProvider'
-
 // Load the favicon and the .htaccess file
 import '!file-loader?name=[name].[ext]!./images/favicon.ico'
 import 'file-loader?name=.htaccess!./.htaccess' // eslint-disable-line import/extensions
@@ -62,18 +59,17 @@ const stores = {
 
 const history = syncHistoryWithStore(browserHistory, routingStore)
 
-const render = messages => {
+const render = () => {
   trunk.init().then(() => {
     ReactDOM.render(
-      <LanguageProvider messages={messages}>
-        <Provider {...stores}>
-          <Router history={history}>
-            <Grommet theme={theme} userAgent={navigator.userAgent} full>
-              <App />
-            </Grommet>
-          </Router>
-        </Provider>
-      </LanguageProvider>,
+      <Provider {...stores}>
+        <Router history={history}>
+          <Grommet theme={theme} userAgent={navigator.userAgent} full>
+            <App />
+          </Grommet>
+        </Router>
+      </Provider>,
+
       MOUNT_NODE,
     )
   })
