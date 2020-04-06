@@ -82,7 +82,7 @@
     "intl": "1.2.5",
     "ip": "1.1.5",
     "lodash": "4.17.13",
-    "minimist": "1.2.0",
+    "minimist": "1.2.3",
     "mobx": "^5.11.0",
     "mobx-react": "^6.1.1",
     "mobx-react-router": "^4.0.7",
